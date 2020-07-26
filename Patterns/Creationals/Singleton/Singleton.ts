@@ -1,13 +1,13 @@
-export default class Singleton {
-	private static instance: Singleton;
+export default class SingletonGame {
+	private static instance: SingletonGame;
 	private constructor() {
 		console.log("you can't create direct instances from a singleton method");
 	}
-	public static getInstance(): Singleton {
-		if (!Singleton.instance) {
-			return (Singleton.instance = new Singleton());
+	public static getInstance(): SingletonGame {
+		if (!SingletonGame.instance) {
+			return (SingletonGame.instance = new SingletonGame());
 		} else {
-			return Singleton.instance;
+			return SingletonGame.instance;
 		}
 	}
 }
