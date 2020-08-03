@@ -1,6 +1,6 @@
 # Design Patterns Implementations
 
-The function of this API is provide to Jaylex platform users access to Stripe platform 
+This is a project to learn more about design-patterns and have fun :) 
 
 ## Getting Started
 
