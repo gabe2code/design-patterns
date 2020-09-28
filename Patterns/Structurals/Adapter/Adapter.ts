@@ -1,5 +1,5 @@
-import Adaptee from './Adaptee.ts';
-import ITarget from './ITarget.ts';
+import Adaptee from './Adaptee';
+import ITarget from './ITarget';
 
 export default class Adapter implements ITarget {
   private adaptee: Adaptee;

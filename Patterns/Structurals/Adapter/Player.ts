@@ -1,4 +1,4 @@
-import ITarget from './ITarget.ts';
+import ITarget from './ITarget';
 
 export default class Player {
   nickName: string;
