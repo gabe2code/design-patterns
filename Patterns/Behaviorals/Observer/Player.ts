@@ -1,5 +1,5 @@
-import IObserver from './IObserver.ts';
-import IObservable from './IObservable.ts';
+import IObserver from './interfaces/IObserver.ts';
+import IObservable from './interfaces/IObservable.ts';
 import Store from './Store.ts';
 
 export default class Player implements IObserver {

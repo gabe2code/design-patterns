@@ -1,4 +1,4 @@
-import IObservable from './IObservable.ts';
+import IObservable from './interfaces/IObservable.ts';
 import Player from './Player.ts';
 import Product from './Product.ts';
 
