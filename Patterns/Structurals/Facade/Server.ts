@@ -24,7 +24,7 @@ export default class Server {
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
     const d = R * c; // in miles
-    return d * 3; // milliseconds which is the speed of light
+    return d / 186.282; // milliseconds which is the speed of light in the network
   }
 
   public get getName(): string {
