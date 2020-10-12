@@ -1,7 +1,7 @@
-import ShapesFactory from './ShapesFactory.ts';
+import ObstaclesFactory from './ObstaclesFactory.ts';
 
-const shapesFactory = new ShapesFactory();
-const triangle = shapesFactory.createShape('Triangle');
-console.log(triangle.calcArea());
-const rectagle = shapesFactory.createShape('Rectangle');
-console.log(rectagle.calcArea());
+const factory = new ObstaclesFactory();
+const obstacle1 = factory.createObstacle(2);
+console.log(obstacle1.damageOnCrash());
+const obstacle2 = factory.createObstacle(6);
+console.log(obstacle2.damageOnCrash());
