@@ -19,7 +19,7 @@ export default class Player {
     console.log(
       `${this.name} you are connected to ${server.getName} server with ${server.calcLatency(
         this.location
-      )} seconds of latency playing 
+      )} milliseconds of latency playing 
       ${this.gameName}`
     );
   }
